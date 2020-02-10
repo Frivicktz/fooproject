@@ -7,6 +7,8 @@ pipeline
         {
         steps 
             {
+                cleanWs()
+
                  git 'https://github.com/Frivicktz/fooproject'
             }
         }
