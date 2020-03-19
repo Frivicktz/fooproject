@@ -39,7 +39,7 @@ User can create an account
 
    And Create User Has Been Selected
 
-   When Valid Data Has Been Inserted    frizz  Molin   0012312394   Frittt@yahoo.com     Frittt@yahoo.com   Brah1210     Brah1210
+   When Valid Data Has Been Inserted    frizz  Molin   0012312395   Fritttt@yahoo.com     Fritttt@yahoo.com   Brah1210     Brah1210
 
    And Creation Has Been Confirmed
 
@@ -75,7 +75,7 @@ The Credit Card Input Should Not Accept More Or Less Than 16 Numbers
 
     Log Out
 
-    Attempt To Log In                    Fritz.molin@live.se  Brah123
+    Attempting Login                      Fritz.molin@live.se  Brah123
 
     Log In
 
