@@ -37,7 +37,7 @@ pipeline
      {
          steps 
          {
-             sh 'newman run Restful Booker.postman_collection.json --environment Restful_Booker.postman_environment.json --reporters junit'
+             sh 'newman run Restful Booker.postman_collection.json --environment Restful Booker.postman_environment.json --reporters junit'
          }
          post 
          {
