@@ -57,8 +57,6 @@ User Should Be Able To Log in
     [Documentation]                      User should be able to log in with an already created account, according to the requirement list.
     [Tags]                               Test 3;The log-in Test
 
-    verify Rental Page Loaded
-
     Log Out
 
     Attempt Login                       Fritz.molin@live.se  Brah123
