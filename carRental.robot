@@ -57,11 +57,11 @@ User Should Be Able To Log in
     [Documentation]                      User should be able to log in with an already created account, according to the requirement list.
     [Tags]                               Test 3;The log-in Test
 
-    Page Loaded
+    verify Rental Page Loaded
 
     Log Out
 
-    Attempt To Log In                    Fritz.molin@live.se  Brah123
+    Attempt Login                       Fritz.molin@live.se  Brah123
 
     Log In
 
@@ -81,64 +81,68 @@ The Credit Card Input Should Not Accept More Or Less Than 16 Numbers
 
     Log In
 
-    The Login Page Should Be Open       frizz
+    The Login Page Should Be Open        frizz
 
-    Continue The Book
+    Continue To The Car Page
 
-    Verify Continue
+    Verify Car Page Loaded
 
     Choosing A Car
+    
+    Verify Credit Card Page Open
 
-    Inserting Card Number               1
+    Inserting Card Number                      1
 
-    Inserting Name                     F
+    Inserting Name                             F
 
-    Inserting Credit Card Date          123
-
-    Confirm Book
-
-    Inserting Card Number               123123123123123
+    Inserting Credit Card Date And Cvc         123
 
     Confirm Book
 
-    Inserting Card Number               123123123123123123123123123
+    Inserting Card Number                      123123123123123
 
     Confirm Book
 
-    Verify Book Completed
+    Inserting Card Number                      123123123123123123123123123
+
+    Confirm Book
+
+    Verify That The Book Is Completed
 
 
 
 
 User Can Book A Car
-    [Documentation]                     This tests the functionality of booking a car. Which means that all the steps: Selection ga car, inserting credit card information and that it shows up on My Page.
+    [Documentation]                     This tests the functionality of booking a car. Which means that all the steps: Selecting a car, inserting credit card information and that it shows up on My Page.
     [Tags]                              Test 5; The Car booking functionality test
 
     Page Loaded
 
     Log Out
 
-    Attempt To Log In                    Fritz.molin@live.se  Brah123
+    Attempting Login                                Fritz.molin@live.se  Brah123
 
     Log In
 
-    The Login Page Should Be Open       frizz
+    The Login Page Should Be Open                   frizz
 
-    Continue The Book
+    Continue To The Car Page
 
-    Verify Continue
+    Verify Car Page Loaded
 
     Choosing A Car
+    
+    Verify Credit Card Page Open
 
-    Inserting Card Number              1234567890123456
+    Inserting Card Number                          1234567890123456
 
-    Inserting Name                     F
+    Inserting Name                                 F
 
-    Inserting Credit Card Date             155
+    Inserting Credit Card Date And Cvc             155
 
     Confirm Book
 
-    Verify Book Completed
+    Verify That The Book Is Completed
 
     Check My Page
 
