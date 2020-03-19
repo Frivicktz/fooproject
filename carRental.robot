@@ -39,7 +39,7 @@ User can create an account
 
    And Create User Has Been Selected
 
-   When Valid Data Has Been Inserted  frizz  Molin   0012312316   F@telia.com     F@telia.com   Brah123     Brah123
+   When Valid Data Has Been Inserted  frizz  Molin   0012312317   Fr@telia.com     Fr@telia.com   Brah1233     Brah1233
 
    And Creation Has Been Confirmed
 
