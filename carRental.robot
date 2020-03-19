@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation                       This test suite is designed to test the car rental function at rental15.infotiv.net
-Resource                            C:/Users/fritz/PycharmProjects/CarRentalTest/Resources/keywords.robot
+Resource                            https://github.com/Frivicktz/fooproject/blob/master/keywords.robot
 Library                             Seleniumlibrary
 
 Suite Setup     Begin Webtest
