@@ -14,7 +14,7 @@ Load Page
 
 
 Verify Rental Page Loaded
-    Location Should Be       http://rental15.infotiv.net/webpage/html/gui/index.php
+    Location Should Be       http://rental15.infotiv.net/
 
 
 Log Out
