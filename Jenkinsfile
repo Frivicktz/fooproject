@@ -31,7 +31,8 @@ pipeline
         {
         junit '**/TEST*.xml'
         }
-    }
+        }
+   }
      stage('newman') 
      {
          steps 
@@ -45,7 +46,6 @@ pipeline
                         junit '**/*xml'
                     }
              }
-        }    
-   }
+        }      
   }
  }
